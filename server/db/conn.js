@@ -1,7 +1,5 @@
 const mongoose = require("mongoose");
 
-// const DB =
-//   "mongodb+srv://vishalmishra4444:vishalmishra@cluster0.3yqcd.mongodb.net?retryWrites=true&w=majority&appName=Cluster0";
 const DB = "mongodb://localhost:27017/mernStack";
 
 mongoose
