@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const DB = "mongodb://localhost:27017/mernStack";
+const DB = process.env.DATABASE;
 
 mongoose
   .connect(DB, {
